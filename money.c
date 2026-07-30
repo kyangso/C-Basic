@@ -1,13 +1,17 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int money;
     int money2;
-
-    printf("얼마를 가지고 계신가요?(원) ");
+    int thing;
+    printf("얼마를 가지고 계신가요? ");
     scanf("%d", &money);
 
-    money - 50000 == money2
-    
+    thing = money / 50000;
 
-}
+    printf("50000원 %d장\n", thing);
+    // printf("장\n");
+
+
+    return 0;
+}  
