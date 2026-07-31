@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 int main() {
+
     int money;
-    int money2;
-    int thing;
+    int money_div_50k;
+
     printf("얼마를 가지고 계신가요? ");
     scanf("%d", &money);
 
-    thing = money / 50000;
+    money_div_50k = money / 50000;
 
-    printf("50000원 %d장\n", thing);
-    // printf("장\n");
+    printf("50,000원\t %d장\n", money_div_50k);
+    // printf("10,000원\t %d장\n", main_10k);
+    // printf("5,000원\t %d장\n", main_5k); 
 
-
+    
     return 0;
 }  
